@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Platform</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <h1>Blog Platform</h1>
+
+        <!-- Login/Register -->
+        <div id="authSection">
+            <input type="text" id="username" placeholder="Enter Username">
+            <button onclick="register()">Register</button>
+            <button onclick="login()">Login</button>
+        </div>
+
+        <div id="userSection" style="display:none;">
+            <h3>Welcome, <span id="currentUser"></span></h3>
+            <button onclick="logout()">Logout</button>
+
+            <div class="post-form">
+                <input type="text" id="postTitle" placeholder="Post Title">
+                <textarea id="postContent" placeholder="Write your blog..."></textarea>
+                <button onclick="createPost()">Create Post</button>
+            </div>
+        </div>
+
+        <div id="postsContainer"></div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
