@@ -1,0 +1,95 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#f4f4f4;
+    padding:20px;
+}
+
+.container{
+    max-width:900px;
+    margin:auto;
+}
+
+h1{
+    text-align:center;
+    margin-bottom:20px;
+    color:#333;
+}
+
+#authSection,
+.post-form{
+    background:white;
+    padding:20px;
+    border-radius:10px;
+    margin-bottom:20px;
+}
+
+input,
+textarea{
+    width:100%;
+    padding:10px;
+    margin:10px 0;
+    border:1px solid #ccc;
+    border-radius:5px;
+}
+
+textarea{
+    height:120px;
+}
+
+button{
+    background:#007bff;
+    color:white;
+    border:none;
+    padding:10px 15px;
+    cursor:pointer;
+    border-radius:5px;
+    margin-right:5px;
+}
+
+button:hover{
+    background:#0056b3;
+}
+
+.post{
+    background:white;
+    padding:20px;
+    border-radius:10px;
+    margin-bottom:20px;
+}
+
+.post h2{
+    margin-bottom:10px;
+}
+
+.post p{
+    margin-bottom:10px;
+}
+
+.comments{
+    margin-top:15px;
+    border-top:1px solid #ddd;
+    padding-top:10px;
+}
+
+.comment{
+    background:#f8f8f8;
+    padding:8px;
+    margin:5px 0;
+    border-radius:5px;
+}
+
+.comment-input{
+    display:flex;
+    gap:10px;
+    margin-top:10px;
+}
+
+.comment-input input{
+    flex:1;
+}
